@@ -1,8 +1,9 @@
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #383838;
     color: rgb(255, 41, 255);
 }
+
 
 .container {
     max-width: 800px;
@@ -23,8 +24,6 @@ body {
 .image img {
     max-width: 20%;
     height: auto;
-    border-radius: 25%;
-    margin-bottom: 0px;
 }
 
 h1,
@@ -73,7 +72,7 @@ p {
 h1,
 h2,
 h3 {
-    color: #000000;
+    color: #10006b;
 }
 
 a {
@@ -81,10 +80,10 @@ a {
 }
 
 section {
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #c20000;
 }
 
 hr {
-    border-bottom: 2px solid rgb(255, 255, 255);
-    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid #c20000;
+    border-top: 2px solid #c20000;
 }
