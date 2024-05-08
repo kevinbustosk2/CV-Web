@@ -11,9 +11,15 @@ body {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url(/img/fondo5.jpg);
 }
 
-/* Estilos para la imagen */
+.image {
+    background-image: url('/img/minifondo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .image img {
     max-width: 20%;
     height: auto;
@@ -21,7 +27,9 @@ body {
     margin-bottom: 0px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
@@ -32,8 +40,13 @@ a {
 }
 
 ul {
-    list-style: none;
+    color: black;
+    list-style:outside;
     margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 img {
@@ -48,27 +61,30 @@ section {
 }
 
 p {
+    color: #000000;
     margin-bottom: 10px;
 }
 
 .container {
-    background-color: #6bf5a4;
+    background-color: #7cfd9c;
     color: #333;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #000000;
 }
 
 a {
-    color: #007bff;
+    color: #00226d;
 }
 
 section {
-    border-bottom: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 hr {
-    border-bottom: 2px solid red;
-    border-top: 2px solid red;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
 }
