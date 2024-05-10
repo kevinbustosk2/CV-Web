@@ -95,3 +95,9 @@ hr {
     border-bottom: 2px solid #c20000;
     border-top: 2px solid #c20000;
 }
+
+h1{
+    background-color:turquoise;
+    padding: 0px;
+    width: fit-content;
+}
