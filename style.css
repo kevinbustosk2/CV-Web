@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-image: url(/img/digital-red-circuit-lines-technology-background-design_1017-27263.avif);
+    background-image: url(/img/digital-red-circuit-lines-technology-background-design_1017-27263.jpg);
     color: #fff;
     padding: 20px; 
     margin: 0; 
@@ -24,7 +24,7 @@ nav {
 }
 
 .image {
-    background-image: url('/img/minifondo.jpeg');
+    background-image: url('/img/minifondo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
